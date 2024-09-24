@@ -1,0 +1,256 @@
+body {
+    background-color: #1B263B ;
+}
+
+.logo {
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo img {
+    width: 9%;
+    
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    background-color: #ECF0F1 ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li a {
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.menu li a:hover {
+    background-color: #111111;
+}
+
+.presentacion
+{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    margin-top:  150px;
+}
+.presentacion h1
+{
+    color: #FFFFFF ;
+    padding-top:  13%; 
+    padding-right: 20%;
+    padding-left: 5%;
+    font-size: 60px;
+    margin: 0; 
+    text-align:left;
+}
+.presentacion h1 span {
+    display: block; 
+}
+h1 a
+{
+    background-color: #1ABC9C;
+    padding: 10px;
+    color: #FEFAE0;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 25px;
+    text-decoration: none;
+}
+h1 a:hover {
+    background-color: #111111;
+}
+
+.Descripcion h1
+{
+    color: #FFFFFF;
+    margin-top: 7%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.Informacion
+{
+    background-color: #ECF0F1; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.Informacion p 
+{
+    margin-left: 2.5%;
+}
+.Informacion ul
+{
+    margin-left: 2.5%;
+}
+
+.Habilidades {
+    margin-top: 7%;
+    text-align: center;
+}
+
+.Habilidades h1 {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.contenedor-habilidades {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Personales, .Herramientas {
+    background-color: #ECF0F1; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.Personales ul, .Herramientas ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+}
+
+.Personales ul li, .Herramientas ul li {
+    margin: 10px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.Herramientas img, .Personales img {
+    margin-bottom: 10px;
+}
+
+.Herramientas h3, .Personales h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.Carpeta {
+    margin-top: 7%;
+    text-align: center;
+}
+
+.Carpeta h1 {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.Proyectos {
+    background-color: #ECF0F1; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.Proyectos ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+}
+
+.Proyectos ul li {
+    margin: 10px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.Proyectos img {
+    margin-bottom: 10px;
+}
+
+.Proyectos a {
+    background-color: #1ABC9C;
+    padding: 10px;
+    color: #FEFAE0;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 25px;
+    text-decoration: none;
+}
+.Proyectos li a:hover {
+    background-color: #111111;
+}
+
+.CuadroText {
+    margin-top: 7%;
+    text-align: center;
+}
+
+.CuadroText h1 {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.Sociales {
+    background-color: #FFFFFF;
+    padding: 2.5px; 
+    border-radius: 10px;
+}
+
+.Sociales ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+}
+
+.Sociales ul li {
+    display: inline-block;
+}
+
+.Sociales ul li a {
+    text-decoration: none; 
+}
+
+.Sociales ul li img {
+    transition: transform 0.3s ease-in-out; 
+}
+
+.Sociales ul li img:hover {
+    transform: scale(1.1);
+}
